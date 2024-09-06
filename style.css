@@ -1,0 +1,233 @@
+{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+body
+{
+  background: #595959;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container
+{
+  position: relative;
+  width: 100%;
+  max-width: 1600px;
+  min-height: 1000px;
+  margin: 20px;
+  background: white;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgb(0, 0, 0,0.1)
+}
+.container .left_side
+{
+  position: relative;
+  background: #007585;
+  padding: 40px;
+}
+.profileText
+{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 0px;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+}
+.profileText .imgBx
+{
+  position: relative;
+  border-radius: 25%;
+  overflow: hidden;
+}
+.profileText h2
+{
+  font-family: "Roboto Mono", monospace;
+  color: white;
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+.profileText h2 span
+{
+  font-size: 0.8em;
+  font-weight: 300;
+}
+.contactInfo
+{
+  padding-top: 10px;
+} 
+.title
+{
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-left: 1px;
+  letter-spacing: 1px;
+}
+.contactInfo ul
+{
+  position: relative;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  margin-inline-start: -35px;
+}
+.contactInfo ul li
+{
+  list-style: none;
+  position: relative;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.contactInfo ul li .icon
+{
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: #0c2836;
+}
+.contactInfo ul li span
+{
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  margin-left: 10px;
+}
+.contactInfo_formation
+{
+  padding-top: 10px;
+}
+.contactInfo_formation ul
+{
+  position: relative;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  
+}
+/* Formação*/
+
+.contactInfo_formation
+{
+  padding-top: 10px;
+} 
+.title
+{
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-left: 1px;
+}
+.contactInfo_formation ul
+{
+  position: relative;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  margin-inline-start: -35px;
+}
+.contactInfo_formation ul li
+{
+  list-style: none;
+  position: relative;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.contactInfo_formation ul li .icon
+{
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: #0c2836;
+}
+.contactInfo_formation ul li span
+{
+  letter-spacing: 1px;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  margin-left: 10px;
+}
+/********/
+
+.container .right_side
+{
+  position: relative;
+  background: #ffffff;
+  padding: 40px;
+}
+.title2
+{
+  color: #0c2836;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.container .right_side .about 
+{
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  margin-left: 10px;
+}
+.about_skills .box h4
+{
+  text-transform: uppercase;
+  color: #4c525d;
+  font-weight: 500;
+}
+.about_skills .box
+{
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  justify-content: center;
+  align-items: center;
+}
+.about_skills .box .percent
+{
+  position: relative;
+  width: 100%;
+  height:10px;
+  background: #a5a1a1;
+}
+.about_skills .box .percent div
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #0082e6;
+  
+}
+.link .icon
+{
+ position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: last baseline;
+  padding-top: 20px;
+ font-size: 75px;
+ color: #0c2836;
+}
+.link2 .icon
+{ 
+   position: relative;
+     display: flex;
+     flex-direction: column;
+     align-items: last baseline;
+     padding-top: 20px;
+    font-size: 75px;
+    color: #0c2836;
+}
